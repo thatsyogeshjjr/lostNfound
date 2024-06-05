@@ -5,7 +5,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1 className="font-bold text-xl">Hello World!</h1>
+      <div
+        id="head"
+        className=" flex gap-2 *:rounded-md *:bg-[#494850] *:p-4 *:px-10 *:text-white"
+      >
+        <button className="">Report a lost item</button>
+        <button className="">Found Something</button>
+      </div>
     </>
   );
 }
