@@ -1,16 +1,13 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar";
+import { Banner } from "./components/Banner";
+import { Report } from "./components/Report";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <div
-        id="head"
-        className=" flex gap-2 *:rounded-md *:bg-[#494850] *:p-4 *:px-10 *:text-white"
-      >
-        <button className="">Report a lost item</button>
-        <button className="">Found Something</button>
+      <div className="flex flex-col justify-center align-center w-screen m-2">
+        <Banner />
+        <Report />
       </div>
     </>
   );
